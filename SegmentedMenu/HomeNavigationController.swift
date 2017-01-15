@@ -8,7 +8,17 @@
 
 import UIKit
 
-class HomeNavigationController: UINavigationController {
+class HomeNavigationController: UINavigationController, UINavigationBarDelegate {
 
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    navigationBar.autoresizingMask = [.flexibleTopMargin, .flexibleBottomMargin]
+    navigationBar.addDropShadow()
+  }
+  
+  override func viewDidLayoutSubviews() {
+    super.viewDidLayoutSubviews()
+    navigationBar.frame.size.height = UIScreen.main.bounds.height / 8
+  }
 }
 

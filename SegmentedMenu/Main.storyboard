@@ -14,15 +14,15 @@
             <objects>
                 <navigationController id="7rI-uT-Ugh" sceneMemberID="viewController">
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="dbX-V9-n7f">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" translucent="NO" id="dbX-V9-n7f">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" type="italicSystem" pointSize="0.0"/>
-                            <color key="textColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textColor" red="0.85442972183227539" green="0.86639803647994995" blue="0.88709670305252075" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <color key="textShadowColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                         </textAttributes>
                     </navigationBar>
@@ -38,7 +38,7 @@
             </objects>
             <point key="canvasLocation" x="-274" y="309"/>
         </scene>
-        <!--View Controller-->
+        <!--hei-->
         <scene sceneID="LI3-PF-lhN">
             <objects>
                 <viewController id="rVB-fd-ukZ" sceneMemberID="viewController">
@@ -52,7 +52,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="oGD-gL-QgX"/>
+                    <navigationItem key="navigationItem" title="hei" id="oGD-gL-QgX">
+                        <barButtonItem key="backBarButtonItem" title="asd" style="done" id="7Wi-tL-Ra7">
+                            <color key="tintColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="btZ-K6-YAf">
+                            <color key="tintColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OVl-VE-pve" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
