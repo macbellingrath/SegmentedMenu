@@ -25,7 +25,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     window                  = _window
     _window.backgroundColor = .white
     
-    let nav                 = HomeNavigationController(rootViewController: ViewController())
+
+    let nav                 = HomeNavigationController(navigationBarClass: NavBar.self, toolbarClass: nil)
+    nav.viewControllers = [ViewController()]
     _window.rootViewController = nav
     _window.makeKeyAndVisible()
   }

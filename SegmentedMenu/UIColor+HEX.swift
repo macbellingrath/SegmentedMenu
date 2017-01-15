@@ -15,6 +15,10 @@ extension UIColor {
   static let darkBlue = hexStringToUIColor(hex: "354A63")
   static let almostWhite = hexStringToUIColor(hex: "EEF0F5")
   
+  /// get uicolor from hex string
+  ///
+  /// - Parameter hex: hex string
+  /// - Returns: color
   private static func hexStringToUIColor (hex:String) -> UIColor {
     var cString:String = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
     

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E6ABC4971E2BCFE7000D2ECE /* UIView+DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ABC4961E2BCFE7000D2ECE /* UIView+DropShadow.swift */; };
 		E6ABC49A1E2BDC3B000D2ECE /* UIColor+HEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ABC4991E2BDC3B000D2ECE /* UIColor+HEX.swift */; };
+		E6ABC49C1E2BE175000D2ECE /* CenteredNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ABC49B1E2BE175000D2ECE /* CenteredNavigationBar.swift */; };
 		E6DDE3791E2A754000DF4535 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DDE3781E2A754000DF4535 /* AppDelegate.swift */; };
 		E6DDE37B1E2A754000DF4535 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DDE37A1E2A754000DF4535 /* ViewController.swift */; };
 		E6DDE3811E2A754000DF4535 /* SegmentedMenu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E6DDE37F1E2A754000DF4535 /* SegmentedMenu.xcdatamodeld */; };
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		E6ABC4961E2BCFE7000D2ECE /* UIView+DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+DropShadow.swift"; sourceTree = "<group>"; };
 		E6ABC4991E2BDC3B000D2ECE /* UIColor+HEX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+HEX.swift"; sourceTree = "<group>"; };
+		E6ABC49B1E2BE175000D2ECE /* CenteredNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenteredNavigationBar.swift; sourceTree = "<group>"; };
 		E6DDE3751E2A754000DF4535 /* SegmentedMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegmentedMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6DDE3781E2A754000DF4535 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6DDE37A1E2A754000DF4535 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				E6DDE3AF1E2A7E7800DF4535 /* BarButtonItem.swift */,
 				E6ABC4981E2BD0B0000D2ECE /* UI */,
 				E6DDE3AB1E2A762300DF4535 /* HomeNavigationController.swift */,
+				E6ABC49B1E2BE175000D2ECE /* CenteredNavigationBar.swift */,
 				E6DDE3821E2A754000DF4535 /* Assets.xcassets */,
 				E6DDE3841E2A754000DF4535 /* LaunchScreen.storyboard */,
 				E6DDE3871E2A754000DF4535 /* Info.plist */,
@@ -291,6 +294,7 @@
 				E6DDE3791E2A754000DF4535 /* AppDelegate.swift in Sources */,
 				E6DDE3AC1E2A762300DF4535 /* HomeNavigationController.swift in Sources */,
 				E6ABC4971E2BCFE7000D2ECE /* UIView+DropShadow.swift in Sources */,
+				E6ABC49C1E2BE175000D2ECE /* CenteredNavigationBar.swift in Sources */,
 				E6DDE3B01E2A7E7800DF4535 /* BarButtonItem.swift in Sources */,
 				E6DDE3811E2A754000DF4535 /* SegmentedMenu.xcdatamodeld in Sources */,
 			);
